@@ -1,0 +1,33 @@
+@import "../../scss/base/index.scss";
+
+.expandedStationContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 0;
+}
+
+img {
+  max-height: 100px;
+  width: auto;
+  border-radius: 50%;
+}
+
+// volume elements 
+
+.plus:hover {
+  color: $primary-color;
+}
+.plus {
+  padding-right: 20px;
+}
+
+.minus {
+  padding-left: 20px;
+}
+
+.minus:hover {
+  color: $primary-color;
+}
+

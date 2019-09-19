@@ -1,0 +1,21 @@
+@import "../../scss/base/index.scss";
+
+.navBarContainer {
+  color: $white;
+  @include topRadius;
+  background: $primary-color;
+  padding: 20px;
+  height: 10%;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navBar__header {
+  font-weight: $font-weight-bold;
+}
+.navBar__icon {
+  font-size: $font-size-md;
+  font-weight: $font-weight-light;
+}

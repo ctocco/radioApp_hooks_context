@@ -1,0 +1,15 @@
+@mixin topRadius {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+@mixin bottomRadius {
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+@mixin boxShadow {
+  -webkit-box-shadow: 0px 13px 14px -3px rgba(0,0,0,0.55);
+  -moz-box-shadow: 0px 13px 14px -3px rgba(0,0,0,0.55);
+  box-shadow: 0px 13px 14px -3px rgba(0,0,0,0.55);
+}

@@ -1,0 +1,29 @@
+@import "../../scss/base/index.scss";
+
+.container {
+  padding: 5px 20px;
+}
+
+li:hover {
+  color: $white;
+}
+
+.radioItemContainer {
+  color: $radio-text-color;
+  cursor: pointer;
+  padding: 15px 0;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  width: 100%;
+  border-bottom: 2px solid $light-grey;
+  margin-left: 0 !important;
+}
+
+.radioItem__expand {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+

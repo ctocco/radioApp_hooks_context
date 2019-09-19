@@ -1,0 +1,30 @@
+@import "../../scss/base/index.scss";
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  min-height: 70px;
+  width: auto;
+  flex-wrap: wrap;
+  background: $navBar-color;
+  @include bottomRadius;
+  border-top: .1rem solid $dark-grey;
+}
+
+.footer__title {
+  color: $primary-color;
+  width: 100%;
+  height: auto;
+  font-size: $font-size-xs;
+  padding-bottom: 0 !important;
+  font-weight:$font-weight-bold;
+  text-align: center;
+}
+
+.footer__currentStation {
+  color: $radio-text-color;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
